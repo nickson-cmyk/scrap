@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.headTitle{
+  font-size: 27px !important;
+}
+
+.imagetext{
+  position: absolute;
+  z-index: 10;
+  left: 6%;
+  top: 20vh;
+}
+
+.parentofcontact{
+padding-bottom: 8px;
+}
+
+.reviewParent{
+  height: 50vh;
+  width: 100vh;
+  background-color: #ffffff;
+}
+
+.contactusParent{
+  height: 30vh;
+  width: 100vh;
+  background-color: #ffffff;
+}
+
+.reviewParent .MuiGrid-container>div:nth-child(odd) {
+  margin-top: -30px;
+}
+
+.counter{
+  font-size: xx-large  !important;
+  font-weight: 500 !important;
+}
+
+h6{
+  font-weight: 900 !important;
+  color: #ffde0f;
+}
+
+.imageSliders > div{
+  width: 100% !important;
+}
+
+.imageSliders > div > div{
+  width: 100% !important;
+}
+
+.serviceImg > img{
+  width: 100% !important;
+}
+
+.MuiCardContent-root,.MuiCardActions-root{
+  padding-bottom: 0px !important;
+}
+
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded{
+  height: 100% !important;
+} */
+
+/* .serviceImg.box2boxClass{
+  height: 65% !important;
+}
+
+.parentofservices>div:nth-child(1)>:nth-child(1){
+  display: none !important;
+} */
+
+@media only screen and (max-width: 780px) {
+  .headTitle {
+    margin-top: 10px !important;
+    font-size: 16px !important;
+  }
+  .appBarOpt{
+    margin-left: 39px !important;
+  }
+  .headerContact{
+    margin-top: 3px;
+  }
+  .imageSliders>div>div > *:nth-child(2){
+    left: 0px !important;
+  }
+  .imageSliders>div>div > *:nth-child(3){
+    right: 0px !important;
+  }
+  .parentofservices>div > *:nth-child(2)>div >*:nth-child(1){
+    display: none;
+  }
+  .parentofservices>div > *:nth-child(2)>div >*:nth-child(5){
+    display: none;
+  }
+  .parentofservices>div > *:nth-child(2)>div{
+    justify-content: space-around !important;
+  }
+  .parentofservices .serviceTitle{
+    text-align: center;
+  }
+  .serviceCardContent{
+    max-height: 43vh;
+  }
+  .reviewWrapper{
+    height: 81vh;
+  }
+  .parentofachievements{
+    height: 29vh;
+  }
+  .parentofachievements>div > *:nth-child(2)>*:nth-child(1){
+    display: none;
+  }
+  .parentofachievements>div > *:nth-child(2)>*:nth-child(5){
+    display: none;
+  }
+  .parentofachievements h6{
+    font-size: 14px !important; 
+  }
+  .contactusParent h6{
+    font-size: 14px !important; 
+  }
+  .appBarOpt{
+    padding-left: 0px !important;
+  }
+  .headerContact{
+    margin-top: 2px !important;
+  }
+}
+
+/* @media only screen and (max-width: 430px) {
+  .imagetext h1{
+    font-size: 15px !important;
+  } 
+} */
